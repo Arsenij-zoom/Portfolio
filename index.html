@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Портфолио" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Арсений Искаков</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/Arsenij-zoom/Portfolio" class="link"
+          >RS.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Проекты</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Навыки</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Контакты</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="переключить тему" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="переключить навигацию"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Обо мне -->
+      <div class="about center">
+        <h1>Привет, я <span class="about__name">Арсений Искаков</span></h1>
+        <h2 class="about__role">Фронтенд-разработчик.</h2>
+        <p class="about__desc">
+          Необходимое неудобство, связанное с определёнными обстоятельствами, зачастую приводит 
+          к последствиям, которые трудно игнорировать. Свобода действий, выбор подходящих решений и 
+          понимание происходящего создают основу для успеха.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://example.com">
+            <span class="btn btn--outline">Резюме</span>
+          </a>
+
+          <a
+            href="https://github.com/Arsenij-zoom"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Проекты</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Проект 1</h3>
+            <p class="project__description">
+              Обвинения могут быть предъявлены за исключение или выбор чего-то подходящего. 
+              Понимание и ответственность помогают избежать проблем, даже если обстоятельства 
+              кажутся сложными и неоднозначными.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="исходный код"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="просмотр"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Проект 2</h3>
+            <p class="project__description">
+              Обвинения и исключения чего-либо могут быть приняты. 
+              Разумное понимание обязанностей и труда помогает справляться с трудностями, 
+              несмотря на препятствия, которые могут возникнуть.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="исходный код"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="просмотр"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Проект 3</h3>
+            <p class="project__description">
+              Обвинения за исключение или выбор чего-либо могут быть обоснованными. 
+              Мудрость, усердие в работе и внимание к деталям помогают преодолевать любые препятствия.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="исходный код"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="просмотр"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Навыки</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Redux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Material UI</li>
+          <li class="skills__list-item btn btn--plain">Jest</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/Arsenij-zoom/Portfolio"
+        class="link footer__link"
+      >
+        Создано Арсением Искаковым
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Наверх" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
